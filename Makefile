@@ -1,0 +1,1 @@
+all: main.cpp; g++ -std=c++11 -o Gravity main.cpp Game.cpp Particle.cpp Point.cpp `pkg-config --cflags sdl2` `pkg-config --libs sdl2`
